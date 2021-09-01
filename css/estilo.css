@@ -30,13 +30,19 @@ footer p.center{
     margin: 10px 10px;
     display: flex;
     justify-content: space-between;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    margin-top: 20px;
+    text-indent: 20px;
+    line-height: 2.5;
 }
+
 
 input{
     width: 600px;
     border-radius: 25px;
     height: 50px;
+    padding-left: 20px;
+    text-transform: capitalize;
     
 }
 
