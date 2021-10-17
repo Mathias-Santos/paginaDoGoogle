@@ -50,7 +50,7 @@ footer{
     font-size: small;
     letter-spacing: 2px;
     position: relative;
-    bottom: 0px;    
+    bottom: -15px;    
 } 
 
 footer p.center{
@@ -60,9 +60,10 @@ footer p.center{
 /******Estilo da página de cadastro ******/
 
 #principal{
-    border: 1px solid red;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 10px;
     max-width: 50%;
-    margin: 150px auto;
+    margin: 150px auto 0px;
     padding: 25px;
 }
 
@@ -112,4 +113,14 @@ a:hover{
     padding: 10px;
     width: 110px;
     cursor: pointer;
+}
+
+#rodape2{
+    color: grey;
+    max-width: 52%;
+    margin: 15px auto;
+    padding: 0px 25px ; 
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
 }
